@@ -28,7 +28,9 @@ Traditional RAG is text-only. It would completely ignore the rich information co
 
 This project uses a sophisticated pipeline to process and query multimodal documents. The key to this process is the **`unstructured`** library, which intelligently parses the PDF, and a **Multi-Vector Retrieval** strategy for efficient searching.
 
-![Workflow Diagram](Image_RAG/Data/workflow.png)
+<div align="center">
+    <img src="https://raw.githubusercontent.com/Ashx111/MultiModalRAG/main/Image_RAG/Data/workflow.png" alt="Text + Image RAG Workflow" width="60%">
+</div>
 
 ### Step 1: Intelligent Document Parsing with `unstructured`
 
